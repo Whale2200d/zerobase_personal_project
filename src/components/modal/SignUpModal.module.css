@@ -1,0 +1,129 @@
+/* BasicModal */
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5f5f5f;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 360px;
+  height: 500px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 6px 10px;
+  text-align: center;
+
+  border-bottom: 1px solid #000000;
+}
+
+.modalHeader > button {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #555555;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.modalHeader > button:hover {
+  background-color: #333333;
+}
+.modalHeader > button:active {
+  background-color: #777777;
+}
+
+/* LoginModal */
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 40px;
+}
+.title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.idContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0 40px;
+}
+.idContainer > div:first-child {
+  border: 1px solid #000000;
+  width: 120px;
+  text-align: center;
+  background-color: #555555;
+  color: #ffffff;
+  padding: 10px 0 10px;
+}
+
+.pwContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0 40px;
+}
+.pwContainer > div {
+  border: 1px solid #000000;
+  width: 120px;
+  text-align: center;
+  background-color: #555555;
+  color: #ffffff;
+  padding: 10px 0 10px;
+}
+
+.idCheck {
+  display: flex;
+  justify-content: space-evenly;
+}
+.idCheck > input {
+  width: 75px;
+  margin-right: 20px;
+}
+.idCheck > button {
+  width: 75px;
+  border: 1px solid #000000;
+  color: #ffffff;
+  background-color: #555555;
+}
+
+.input {
+  border: 1px solid #000000;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 40px;
+}
+.buttonContainer > button {
+  border: 1px solid #000000;
+  width: 300px;
+  text-align: center;
+  background-color: #555555;
+  color: #ffffff;
+  padding: 10px 0 10px;
+  margin: 5px 0 5px;
+}
+.buttonContainer > button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+.buttonContainer > button:active {
+  background-color: #777777;
+  color: #ffffff;
+}

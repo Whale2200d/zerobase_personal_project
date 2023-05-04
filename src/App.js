@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import ModalBasicLayout from "./components/modal/ModalBasicLayout";
+// import LoginModal from "./components/modal/LoginModal";
+// import SignUpModal from "./components/modal/SignUpModal";
+// import Calendar from "./components/calendar/Calendar";
+import MainPage from "./components/mainPage/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ModalBasicLayout /> */}
+      {/* <LoginModal />
+      <SignUpModal /> */}
+      {/* <Calendar /> */}
+      <MainPage />
     </div>
   );
 }

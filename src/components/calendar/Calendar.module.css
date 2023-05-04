@@ -1,0 +1,102 @@
+.Canlendar {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* calenderContainer */
+.canlendarContainer {
+  max-width: 784px;
+  min-width: 768px;
+  border: 1px solid #000000;
+}
+
+/* headerContainer */
+.headerContainer {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.leftArrow {
+  background-color: #555555;
+
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 100%;
+}
+.leftArrow:hover {
+  background-color: #333333;
+}
+.leftArrow:active {
+  background-color: #777777;
+}
+.rightArrow {
+  background-color: #555555;
+
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 100%;
+}
+.rightArrow:hover {
+  background-color: #333333;
+}
+.rightArrow:active {
+  background-color: #777777;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+}
+.date > button {
+  padding: 0 5px 0;
+
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* weeksContainer */
+.weeksContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weeksContainer > .col {
+  border: 1px solid #000000;
+  width: 100px;
+  height: 32px;
+
+  margin: 3px;
+  padding: 2px;
+
+  text-align: right;
+  line-height: 32px;
+
+  font-weight: 800;
+}
+.weeksContainer > .col:first-child {
+  color: red;
+}
+.weeksContainer > .col:last-child {
+  color: blue;
+}
+
+/* bodyContainer */
+.bodyContainer {
+  position: relative;
+}

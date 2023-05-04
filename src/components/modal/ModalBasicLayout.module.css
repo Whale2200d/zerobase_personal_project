@@ -1,0 +1,45 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5f5f5f;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 360px;
+  height: 500px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 6px 10px;
+  text-align: center;
+
+  border-bottom: 1px solid #000000;
+}
+
+.modalHeader > button {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #555555;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.modalHeader > button:hover {
+  background-color: #333333;
+}
+.modalHeader > button:active {
+  background-color: #777777;
+}
