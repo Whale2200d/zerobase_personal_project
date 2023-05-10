@@ -1,9 +1,10 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 // import ModalBasicLayout from "./components/modal/ModalBasicLayout";
 // import LoginModal from "./components/modal/LoginModal";
 // import SignUpModal from "./components/modal/SignUpModal";
-// import Calendar from "./components/calendar/Calendar";
-import MainPage from "./components/mainPage/MainPage";
+// import Calendar from "./components/page/CalendarPage";
+import MainPage from "./components/page/MainPage";
 
 function App() {
   return (
@@ -12,8 +13,16 @@ function App() {
       {/* <LoginModal />
       <SignUpModal /> */}
       {/* <Calendar /> */}
-      <MainPage />
+      {/* <MainPage /> */}
     </div>
+    // <Routes>
+    //   <Route path="/" element={<MainPage />} />
+    //   <Route path="/" element={<MainPage />} />
+    //   <Route path="/" element={<MainPage />} />
+    //   <Route path="/" element={<MainPage />} />
+    //   <Route path="/" element={<MainPage />} />
+    //   <Route path="/" element={<MainPage />} />
+    // </Routes>
   );
 }
 

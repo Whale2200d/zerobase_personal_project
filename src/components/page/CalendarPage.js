@@ -1,5 +1,5 @@
-import Day from "./Day";
-import styles from "./Calendar.module.css";
+import Day from "../modal/DayCell";
+import styles from "./CalendarPage.module.css";
 
 const RenderWeeks = () => {
   const weeks = [];
@@ -66,6 +66,13 @@ export default function Calendar() {
           <Day day={33} />
           <Day day={34} />
           <Day day={35} />
+          <Day day={36} />
+          <Day day={37} />
+          <Day day={38} />
+          <Day day={39} />
+          <Day day={40} />
+          <Day day={41} />
+          <Day day={42} />
         </div>
       </div>
     </div>
