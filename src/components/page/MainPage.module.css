@@ -1,4 +1,24 @@
-.MainPageContainer {
+.mainPageContainer {
   width: 100vw;
   height: 100vh;
+
+  display: flex;
+}
+.mainPageContainer > div:first-child {
+  width: 20%;
+
+  background-color: #777777;
+}
+.mainPageContainer > div:last-child {
+  width: 80%;
+  background-color: #333333;
+}
+
+.itemsContainer {
+  height: 80%;
+  background-color: #555555;
+}
+.paginationContainer {
+  height: 20%;
+  background-color: #666666;
 }

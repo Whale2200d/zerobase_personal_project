@@ -1,0 +1,13 @@
+.itemContainer {
+  width: 150px;
+  height: 200px;
+
+  background-color: #333333;
+  display: inline-block;
+}
+.itemContainer > div:first-child {
+  background-color: #111111;
+}
+.itemContainer > div:last-child {
+  background-color: #222222;
+}

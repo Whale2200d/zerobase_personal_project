@@ -11,6 +11,7 @@ export default function ModalBasicLayout() {
             <RxCross1 />
           </button>
         </div>
+        {/* props로 children값을 받아온다. HOC, High Order Component */}
       </div>
     </div>
   );

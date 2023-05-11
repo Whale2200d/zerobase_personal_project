@@ -1,20 +1,20 @@
-import Day from "../modal/DayCell";
+import DayCell from "./cell/DayCell";
 import styles from "./CalendarPage.module.css";
 
-const RenderWeeks = () => {
-  const weeks = [];
-  const date = ["일", "월", "화", "수", "목", "금", "토"];
+// const RenderWeeks = () => {
+//   const weeks = [];
+//   const date = ["일", "월", "화", "수", "목", "금", "토"];
 
-  for (let i = 0; i < 7; i++) {
-    weeks.push(
-      <div className={styles.col} key={i}>
-        {date[i]}
-      </div>
-    );
-  }
+//   for (let i = 0; i < 7; i++) {
+//     weeks.push(
+//       <div className={styles.col} key={i}>
+//         {date[i]}
+//       </div>
+//     );
+//   }
 
-  return <div className={styles.weeksContainer}>{weeks}</div>;
-};
+//   return <div className={styles.weeksContainer}>{weeks}</div>;
+// };
 
 export default function Calendar() {
   return (
@@ -29,50 +29,50 @@ export default function Calendar() {
           </div>
           <button className={styles.rightArrow}>▶</button>
         </div>
-        <RenderWeeks />
+        {/* <RenderWeeks /> */}
         <div className={styles.bodyContainer}>
-          <Day day={1} />
-          <Day day={2} />
-          <Day day={3} />
-          <Day day={4} />
-          <Day day={5} />
-          <Day day={6} />
-          <Day day={7} />
-          <Day day={8} />
-          <Day day={9} />
-          <Day day={10} />
-          <Day day={11} />
-          <Day day={12} />
-          <Day day={13} />
-          <Day day={14} />
-          <Day day={15} />
-          <Day day={16} />
-          <Day day={17} />
-          <Day day={18} />
-          <Day day={19} />
-          <Day day={20} />
-          <Day day={21} />
-          <Day day={22} />
-          <Day day={23} />
-          <Day day={24} />
-          <Day day={25} />
-          <Day day={26} />
-          <Day day={27} />
-          <Day day={28} />
-          <Day day={29} />
-          <Day day={30} />
-          <Day day={31} />
-          <Day day={32} />
-          <Day day={33} />
-          <Day day={34} />
-          <Day day={35} />
-          <Day day={36} />
-          <Day day={37} />
-          <Day day={38} />
-          <Day day={39} />
-          <Day day={40} />
-          <Day day={41} />
-          <Day day={42} />
+          <DayCell day={1} />
+          <DayCell day={2} />
+          <DayCell day={3} />
+          <DayCell day={4} />
+          <DayCell day={5} />
+          <DayCell day={6} />
+          <DayCell day={7} />
+          <DayCell day={8} />
+          <DayCell day={9} />
+          <DayCell day={10} />
+          <DayCell day={11} />
+          <DayCell day={12} />
+          <DayCell day={13} />
+          <DayCell day={14} />
+          <DayCell day={15} />
+          <DayCell day={16} />
+          <DayCell day={17} />
+          <DayCell day={18} />
+          <DayCell day={19} />
+          <DayCell day={20} />
+          <DayCell day={21} />
+          <DayCell day={22} />
+          <DayCell day={23} />
+          <DayCell day={24} />
+          <DayCell day={25} />
+          <DayCell day={26} />
+          <DayCell day={27} />
+          <DayCell day={28} />
+          <DayCell day={29} />
+          <DayCell day={30} />
+          <DayCell day={31} />
+          <DayCell day={32} />
+          <DayCell day={33} />
+          <DayCell day={34} />
+          <DayCell day={35} />
+          <DayCell day={36} />
+          <DayCell day={37} />
+          <DayCell day={38} />
+          <DayCell day={39} />
+          <DayCell day={40} />
+          <DayCell day={41} />
+          <DayCell day={42} />
         </div>
       </div>
     </div>
