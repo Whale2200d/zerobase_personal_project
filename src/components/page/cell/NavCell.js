@@ -8,7 +8,7 @@ export default function Nav() {
         <button>카테고리</button>
       </div>
       <div className={styles.searchContainer}>
-        <input type="text" />
+        <input type="text" placeholder="검색 후 엔터" />
       </div>
     </div>
   );

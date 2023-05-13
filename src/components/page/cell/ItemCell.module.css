@@ -4,10 +4,34 @@
 
   background-color: #333333;
   display: inline-block;
+
+  margin: 10px;
+  padding: 12px;
+
+  color: white;
 }
 .itemContainer > div:first-child {
   background-color: #111111;
+  height: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
 }
 .itemContainer > div:last-child {
   background-color: #222222;
+  height: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  color: white;
+}
+
+.itemContainer span {
+  display: block;
 }

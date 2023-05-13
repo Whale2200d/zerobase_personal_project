@@ -130,6 +130,10 @@ table {
 
 /* 아래는 css reset을 제외한 App css */
 
+/* box-sizing : border-box */
+* {
+  box-sizing: border-box;
+}
 /* 1. 버튼 디자인 초기화 */
 button {
   background: inherit;
@@ -138,7 +142,6 @@ button {
   border-radius: 0;
   padding: 0;
   overflow: visible;
-  cursor: pointer;
 }
 input {
   -webkit-appearance: none;

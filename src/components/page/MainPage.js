@@ -1,29 +1,44 @@
 import styles from "./MainPage.module.css";
-import Nav from "./cell/NavCell";
+
+import NavCell from "./cell/NavCell";
 import ItemCell from "./cell/ItemCell";
+import PaginationCell from "./cell/PaginationCell";
+
+import { useState } from "react";
 
 export default function MainPage() {
+  const MAX_PAGE = 10;
+  const [page, setPage] = useState(1);
+
   return (
     <>
-      <Nav />
+      <NavCell />
       <div className={styles.mainPageContainer}>
-        <div className={styles.celebratedPersonContainer}>
+        {/* <div className={styles.celebratedPersonContainer}>
           기념일 당사자 설명 내용
-        </div>
+        </div> */}
         <div className={styles.listContainer}>
-          <div className={styles.itemsContainer}>
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
-            <ItemCell />
+          <div className={styles.itemsWrapper}>
+            <ul className={styles.itemsList}>
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+              <ItemCell />
+            </ul>
           </div>
-          <div className={styles.paginationContainer}>페이지네이션</div>
+          <div className={styles.paginationContainer}>
+            <PaginationCell
+              maxPage={MAX_PAGE}
+              currentPage={page}
+              onClickPageButton={(number) => setPage(number)}
+            />
+          </div>
         </div>
       </div>
     </>
