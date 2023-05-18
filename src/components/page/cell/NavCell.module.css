@@ -3,9 +3,9 @@
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
-  padding: 16px;
+  padding-top: 3px;
   border: 1px solid #000000;
   background-color: #555555;
 }
@@ -19,10 +19,29 @@
 .buttonContainer > button:first-child {
   margin-right: 10px;
 }
+.buttonContainer > button:last-child:hover {
+  color: white;
+  background-color: #333333;
+}
+.buttonContainer > button:last-child:active {
+  color: white;
+  background-color: #777777;
+}
+.tabsModalContainer {
+  position: sticky;
+  z-index: 999;
+
+  margin-left: 110px;
+  margin-top: 10px;
+
+  background-color: white;
+}
 
 .searchContainer > input {
   width: 200px;
   height: 30px;
   border: 1px solid #000000;
   background-color: #fff;
+
+  margin-right: 10px;
 }

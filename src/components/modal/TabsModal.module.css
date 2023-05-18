@@ -1,0 +1,29 @@
+.tabList {
+  display: flex;
+
+  background-color: white;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  display: flex;
+
+  border: none;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+
+.selected {
+  border-bottom: 2px solid #fa4549;
+  font-weight: 800;
+}
+
+.link {
+  text-decoration: none;
+}

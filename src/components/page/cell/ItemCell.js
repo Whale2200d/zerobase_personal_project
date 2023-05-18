@@ -1,13 +1,17 @@
 import styles from "./ItemCell.module.css";
 
-export default function ItemCell() {
+import { Link } from "react-router-dom";
+
+export default function ItemCell({ children, link }) {
   return (
-    <li className={styles.itemContainer}>
-      <div>상품 이미지</div>
-      <div>
-        <span>상품 이름</span>
-        <span>상품 가격</span>
-      </div>
-    </li>
+    <Link to={`/${link}`}>
+      <li className={styles.itemContainer}>
+        <div>상품 이미지</div>
+        <div>
+          <span>{children}</span>
+          <span>상품 가격</span>
+        </div>
+      </li>
+    </Link>
   );
 }

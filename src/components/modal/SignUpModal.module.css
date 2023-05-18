@@ -26,7 +26,7 @@
   border-bottom: 1px solid #000000;
 }
 
-.modalHeader > button {
+.cancelButton {
   border: 1px solid #000000;
   border-radius: 50%;
   background-color: #555555;
@@ -38,10 +38,10 @@
   align-items: center;
   color: #ffffff;
 }
-.modalHeader > button:hover {
+.cancelButton:hover {
   background-color: #333333;
 }
-.modalHeader > button:active {
+.cancelButton:active {
   background-color: #777777;
 }
 

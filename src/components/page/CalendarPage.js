@@ -1,21 +1,6 @@
 import DayCell from "./cell/DayCell";
 import styles from "./CalendarPage.module.css";
 
-// const RenderWeeks = () => {
-//   const weeks = [];
-//   const date = ["일", "월", "화", "수", "목", "금", "토"];
-
-//   for (let i = 0; i < 7; i++) {
-//     weeks.push(
-//       <div className={styles.col} key={i}>
-//         {date[i]}
-//       </div>
-//     );
-//   }
-
-//   return <div className={styles.weeksContainer}>{weeks}</div>;
-// };
-
 export default function Calendar() {
   return (
     <div className={styles.Canlendar}>

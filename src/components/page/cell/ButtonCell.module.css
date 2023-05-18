@@ -1,0 +1,14 @@
+.button {
+  width: 75px;
+  height: 30px;
+  border: 1px solid #000000;
+  background-color: #fff;
+}
+.button:hover {
+  color: white;
+  background-color: #333333;
+}
+.button:active {
+  color: white;
+  background-color: #777777;
+}

@@ -20,16 +20,16 @@ export default function MainPage() {
         <div className={styles.listContainer}>
           <div className={styles.itemsWrapper}>
             <ul className={styles.itemsList}>
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
-              <ItemCell />
+              <ItemCell children={"상품 이름1"} link={"letter"} />
+              <ItemCell children={"상품 이름2"} link={"letter"} />
+              <ItemCell children={"상품 이름3"} link={"letter"} />
+              <ItemCell children={"상품 이름4"} link={"letter"} />
+              <ItemCell children={"상품 이름5"} link={"letter"} />
+              <ItemCell children={"상품 이름6"} link={"letter"} />
+              <ItemCell children={"상품 이름7"} link={"letter"} />
+              <ItemCell children={"상품 이름8"} link={"letter"} />
+              <ItemCell children={"상품 이름9"} link={"letter"} />
+              <ItemCell children={"상품 이름10"} link={"letter"} />
             </ul>
           </div>
           <div className={styles.paginationContainer}>

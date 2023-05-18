@@ -1,2 +1,36 @@
-.letterPage {
+.letterPageContainer {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+}
+.letterPageContainer > div:first-child {
+  width: 20%;
+
+  z-index: 99;
+}
+.letterPageContainer > div:last-child {
+  width: 80%;
+  width: 100%;
+}
+
+.itemsWrapper {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemsList {
+  width: 850px;
+  min-width: 850px;
+  height: 440px;
+}
+.paginationContainer {
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
 }
